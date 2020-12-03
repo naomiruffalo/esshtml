@@ -1,0 +1,149 @@
+<! DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 0.5">
+        <title>Emerald Sites</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
+    </head> 
+    <body> 
+        <div class="header">
+        <div class="container">
+            <div class="navbar"> 
+            <div class="logo">
+                <img src="emerald%20stone%20sites%20logo.png" width="125">
+            </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <img src="emerald%20menu%20icon%20pic%20(1).png"class="menuicon" onclick="menutoggle()">
+        </div> 
+        <div class="row">
+            <div class="col-2">
+                <h1>Create Websites <br>at a low price!</h1>
+                <p> Select from multiple website styles and start your business today</p>
+                <a href="Blog.html" class="btn"> Explore Now &#8594</a> 
+            </div> 
+            <div class="col-2">
+                <img src="emerald%20stone%20sites%20pic.png"> 
+            </div>
+        </div>
+        </div>
+        </div>
+        
+                    <!-----featured categories/products----->
+        
+        <div class="categories">
+            <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Copy%20of%20emerald%20stone%20blog%20pic.png" width="100%">
+                    <div class="blogsites">
+                    <a href="" class="btn">Browse Blogging Websites</a>
+                    <link href="Blog.html">
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <img src="Copy%20of%20emerald%20stone%20book%20pic.png" width="100%">
+                    <div class="scriptsites">
+                    <a href="" class="btn">Browse Scripting Websites</a>
+                    <link href="book.html">
+                    </div> 
+                </div>
+                <div class="col-3">
+                    <img src="Copy%20of%20emerald%20stone%20media%20pic.png" width="100%">
+                    <div class="mediasites">
+                    <a href="" class="btn">Browse Media Websites</a>
+                    <link href="book.html">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="emerald%20stone%20business%20pic.png" width="100%">
+                    <div class="busi-sites">
+                    <a href="" class="btn">Browse Business Websites</a>
+                    <link href="Blog.html">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="emerald%20stone%20entertainment%20pic.png" width="100%">
+                    <div class="entsites">
+                    <a href="" class="btn">Browse Entertainment Websites</a>
+                    <link href="Blog.html">
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <img src="emerald%20stone%20personal%20pic.png" width="100%">
+                    <div class="per-sites">
+                    <a href="" class="btn">Browse Personal Websites</a>
+                    <link href="Blog.html">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+         <!-------------f products------------->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="Copy%20of%20emerald%20stone%20blog%20pic.png">
+                    <h4>Bloop</h4>
+                    <p>$0.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="Copy%20of%20emerald%20stone%20blog%20pic.png">
+                    <h4>Bloop</h4>
+                    <p>$0.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="Copy%20of%20emerald%20stone%20blog%20pic.png">
+                    <h4>Bloop</h4>
+                    <p>$0.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="Copy%20of%20emerald%20stone%20blog%20pic.png">
+                    <h4>Bloop</h4>
+                    <p>$0.00</p>
+                </div>
+            </div>
+        </div>
+            
+<!-------------footer------------->
+            
+        <div class="footer">
+            <div class="container" >
+                <div class="row">
+<!--
+                    <div class="footer-col-1">
+                        <li><a href="contactus.html">Contact us</a></li> 
+                    </div>
+-->
+                    <img src="emerald%20stone%20all%20rights%20reserved.png" width="100%" class="rightsreserved">-->
+                </div>
+            </div>
+        </div>
+        
+<!--------javascript for toggle menu-------->
+        
+        <script>
+        var MenuItems= document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px"
+            function menutoggle(){
+                if (MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+    </body>
+</html> 
